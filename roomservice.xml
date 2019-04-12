@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote name="surnia-dev" fetch="https://github.com/surnia-griffin/" revision="lineage-16.0-chil" />
+	<remote name="LineageOS" fetch="https://github.com/" revision="lineage-16.0" />
+
+	<project name="android_device_motorola_surnia" path="device/motorola/surnia" remote="surnia-dev" revision="lineage-16.0-chil" />
+	<project name="android_device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="surnia-dev" revision="lineage-16.0-chil" />
+	<project name="android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="surnia-dev" revision="lineage-16.0-chil" />
+	<project name="proprietary_vendor_motorola" path="vendor/motorola" remote="surnia-dev" revision="lineage-16.0-chil" />
+	
+	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="LineageOS" revision="lineage-15.1" />
+	<project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="LineageOS" revision="lineage-15.1" />
+	<project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="LineageOS" revision="lineage-16.0" />
+
+</manifest>
